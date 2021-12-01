@@ -1,0 +1,66 @@
+/******************Article cardes section************/
+
+.blog_section {
+    background-color: #ECECEC;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .section-title {
+        margin-bottom: 25px;
+    }
+    .article_cardes {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        .article_card {
+            cursor: pointer;
+            border-radius: 29px;
+            background-color: #fff;
+            margin: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+            .article_card_top {
+                position: relative;
+                .article_card_img {
+                    margin-bottom: 15px;
+                    width: 100%;
+                    overflow: hidden;
+                    border-radius: 29px;
+                    img {
+                        transition: .5s;
+                        border-radius: 29px;
+                        width: 100%;
+                        height: 100%;
+                        &:hover {
+                            transition: .5s;
+                            transform: scale(1.2);
+                        }
+                    }
+                }
+                .article_date_badg {
+                    color: #fff;
+                    bottom: -21px;
+                    right: 15px;
+                    position: absolute;
+                    background-image: url(../mediat/svg/article_date_badg.svg);
+                    width: 130px;
+                    height: 50px;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .article_card_bottom {
+                padding: 1rem;
+                .article_title {
+                    margin-top: 0;
+                    color: #686868;
+                    margin-bottom: 0;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+/******************************* infos du maire ***********************************/
+
+.infos_maire {
+    margin-top: 80px;
+    margin-bottom: 55px;
+    .image_maire {
+        height: 100%;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+        .nom_maire {
+            color: rgb(1, 3, 83);
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            background: url(/assets/mediat/svg/maire_nom_background.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 130px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h2 {
+                overflow: hidden;
+                margin-bottom: 0px;
+                margin-top: 20px;
+            }
+            p {
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+        }
+    }
+    .mot {
+        height: 100%;
+        padding: 2rem;
+        background-color: #1D6FEC;
+        color: #fff;
+    }
+}

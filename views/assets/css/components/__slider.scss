@@ -1,0 +1,82 @@
+.slider {
+    height: 600px;
+    width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/assets/mediat/sliders/Les-cascades-de-Man2-2.jpg);
+    position: relative;
+    .ca {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(37, 54, 70, 0.4256) 0%, rgba(0, 34, 65, 0.76) 60.94%);
+        z-index: -1;
+    }
+    .slider_centent {
+        position: relative;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        .flashinfos {
+            font-size: 13px;
+            margin-top: 50px;
+            overflow: hidden;
+            width: 100%;
+            background-color: #fff;
+            border-radius: 55px;
+            display: -webkit-box;
+            .fla-text {
+                width: 90%;
+                overflow: hidden;
+            }
+            .label {
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 118px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(/assets/mediat/svg/nameBackground.svg);
+            }
+            .p {
+                overflow: hidden;
+                width: max-content;
+                height: 100%;
+                font-weight: 600;
+                margin: 10px;
+                color: rgb(87, 86, 86);
+            }
+        }
+    }
+    .slider_controller {
+        margin-top: 13%;
+        .controller {
+            z-index: 45;
+            background-color: rgba(0, 0, 0, 0.774);
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+        .left-controller {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            img {
+                width: 30px;
+            }
+        }
+        .right-controller {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            img {
+                width: 30px;
+            }
+        }
+    }
+}

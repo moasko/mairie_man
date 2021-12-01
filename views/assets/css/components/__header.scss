@@ -1,0 +1,61 @@
+header {
+    //mininavigation
+    .mini-nav {
+        color: #fff;
+        background-color: #1D6FEC;
+        padding: 10px;
+        font-size: 12px;
+        .mini-nav-left {
+            span {
+                margin-left: 40px;
+            }
+        }
+        .mini-nav-right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
+                margin-left: 40px;
+            }
+        }
+    }
+    //nav
+    nav {
+        .logo {
+            font-family: 'Lobster', cursive;
+            color: #fff;
+            font-size: 35px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-left: 10px;
+            text-transform: uppercase;
+        }
+        .close_btn {
+            display: none;
+        }
+        .hamberger {
+            display: none;
+        }
+        .nav-menu {
+            display: flex;
+            padding: 30px 0px;
+            ul {
+                li {
+                    margin-left: 25px;
+                    a {
+                        font-weight: bold;
+                        padding: 20px;
+                        font-size: 16px;
+                        transition: .3s;
+                        &:hover {
+                            transition: .3s;
+                            border-radius: 3px;
+                            color: #fff;
+                            background-color: rgb(255, 75, 75);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

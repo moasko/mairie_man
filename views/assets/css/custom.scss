@@ -1,0 +1,105 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #fff;
+    --text-color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    aspect-ratio: attr(width) / attr(height);
+}
+
+.container {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col_4 {
+    width: 30%;
+}
+
+.col-2 {
+    width: 15%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-4 {
+    width: 30%;
+}
+
+.col-8 {
+    width: 70%;
+}
+
+._df {
+    display: flex;
+}
+
+._jc-sb {
+    justify-content: space-between;
+}
+
+._jc-sa {
+    justify-content: space-around;
+}
+
+.__ai-fe {
+    align-items: flex-end;
+}
+
+._ai-c {
+    align-items: center;
+}
+
+._jc-c {
+    justify-content: center;
+}
+
+.hei {
+    height: 100%
+}
+
+
+/****************impoertations**************/
+
+@import './components/_header';
+@import './components/_slider';
+@import './components/_services';
+@import './components/_infos_maire';
+@import './components/_article_cardes';
+@import './components/_acces-rapide';
+@import './components/_carte';
+@import './components/_footer';
+//responssive
+@import './components/_responssive';

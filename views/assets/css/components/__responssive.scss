@@ -1,0 +1,168 @@
+@media screen and (max-width:900px) {
+    .container {
+        width: 90%;
+    }
+    .col_4 {
+        width: 45%;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .col-8 {
+        width: 100%;
+    }
+    header {
+        .mini-nav {
+            height: auto;
+            .minim {
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                .mini-nav-left {
+                    margin-bottom: 10px;
+                    span {
+                        display: block;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+    nav {
+        .view-menu {
+            transition: .5s cubic-bezier(0.69, -0.03, 0.35, 1.22);
+            transform: translateX(0%)!important;
+        }
+        .nav-menu {
+            transition: .5s cubic-bezier(0.69, -0.03, 0.35, 1.22);
+            transform: translateX(100%);
+            height: 100%;
+            position: fixed;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            z-index: 78888;
+            bottom: 0;
+            left: 0;
+            .close_btn {
+                display: block !important;
+                span {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 40px;
+                    height: 40px;
+                    border: 1px solid black;
+                    margin-bottom: 120px;
+                    font-size: 30px;
+                    font-style: bolder;
+                    padding: 30px;
+                    border-radius: 50%;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+            }
+            ul {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                li {
+                    a {
+                        color: rgb(48, 48, 48);
+                        margin-top: 14px;
+                        display: block;
+                        font-size: 35px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        .hamberger {
+            width: 30px;
+            display: block !important;
+            .trait {
+                width: 100%;
+                height: 5px;
+                margin: 5px;
+                border-radius: 30px;
+                background-color: rebeccapurple;
+            }
+        }
+    }
+    .services {
+        margin-top: 0px;
+        .mair_services {
+            height: auto;
+            flex-wrap: wrap;
+            .srvice_box {
+                width: 48%;
+                margin-bottom: 8px;
+                margin-top: 8px;
+            }
+        }
+    }
+    .acces-rapide {
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        .hei {
+            flex-direction: column;
+        }
+        .div1 {
+            width: 100%;
+        }
+        .rapidcontent {
+            width: 100%;
+            flex-direction: column;
+        }
+        .div1:before {
+            width: 100%;
+            transform: skewX(0deg);
+        }
+        .div2 {
+            margin-left: 0px;
+            width: 100%;
+        }
+        .div2:before {
+            transform: skewX(0deg);
+        }
+    }
+    .slider {
+        .slider_controller {
+            margin-top: 45%;
+        }
+    }
+    .cart-interactif {
+        .row {
+            flex-direction: column;
+        }
+        .quatiers {
+            align-items: center;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            a {
+                color: black;
+                display: block;
+                width: 100%;
+                text-align: left;
+                padding: 5px;
+            }
+        }
+    }
+    footer {
+        .footer-top {
+            flex-direction: column;
+            height: 350px;
+            background-size: cover;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width:640px) {
+    .col_4 {
+        width: 100%;
+    }
+}
