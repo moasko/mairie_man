@@ -12,7 +12,7 @@ L'architecture à suivre est l'architecture MVC (Modèle Vue controlleur) et la 
 * PHP
 * Javascript
 * MySQL
-* Bootstrap v.5
+* Bootstrap v.6
 * Fontawesome / bootstrap icon (pour les icons)
 * HTML5
 * CSS3 / SASS (optionnel)
